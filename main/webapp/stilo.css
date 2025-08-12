@@ -1,0 +1,64 @@
+tibody {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.main-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.tarefas-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+/* Cada tarefa como um card simples */
+.tarefa-card {
+  background-color: #fff;
+  border-left: 5px solid #4CAF50;
+  padding: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Formulário de entrada */
+.form-tarefa {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form-tarefa input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-tarefa button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-tarefa button:hover {
+  background-color: #45a049;
+}
