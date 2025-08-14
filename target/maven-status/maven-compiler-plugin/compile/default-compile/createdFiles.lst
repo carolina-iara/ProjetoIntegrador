@@ -1,0 +1,7 @@
+com\mycompany\projetointegrador\DAO\TesteConexao.class
+com\mycompany\projetointegrador\DAO\TarefaDAO.class
+com\mycompany\projetointegrador\DAO\Conexao.class
+com\mycompany\projetointegrador\modelo\Tarefa.class
+com\mycompany\projetointegrador\JakartaRestConfiguration.class
+com\mycompany\projetointegrador\controller\TarefaServlet.class
+com\mycompany\projetointegrador\resources\JakartaEE10Resource.class
